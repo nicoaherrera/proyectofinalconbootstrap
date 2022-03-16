@@ -1,0 +1,76 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.imagenfondo {
+  background-image: url(./imagenes/imagenfondoopaca.jpg);
+  background-size: contain;
+}
+
+footer {
+  background-color: rgba(94, 89, 89, 0.432);
+  font-family: "Inconsolata", monospace;
+  font-family: "Lato", sans-serif;
+  text-align: center;
+  background-image: url(./imagenes/imagenfondoopaca.jpg);
+  background-size: cover;
+  bottom: 0;
+}
+#contactanos {
+  background-color: rgba(94, 89, 89, 0.432);
+  font-family: "Inconsolata", monospace;
+  font-family: "Lato", sans-serif;
+  text-align: center;
+  position: relative;
+  margin-top: 95px;
+}
+
+#nosotros {
+  background-color: rgb(255, 255, 255);
+  font-family: "Inconsolata", monospace;
+  font-family: "Lato", sans-serif;
+  text-align: center;
+  height: 100vh;
+  margin-top: 95px;
+}
+#franquicias {
+  background-color: rgb(255, 255, 255);
+  font-family: "Inconsolata", monospace;
+  font-family: "Lato", sans-serif;
+  text-align: center;
+  height: 100vh;
+  margin-top: 95px;
+}
+#tienda {
+  background-image: url(./imagenes/imagenfondoopaca.jpg);
+  background-size: contain;
+  font-family: "Inconsolata", monospace;
+  font-family: "Lato", sans-serif;
+  text-align: center;
+  height: 100vh;
+  margin-top: 95px;
+}
+
+.row {
+  display: flex;
+  padding: 5px;
+  margin: 5px;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+.column img {
+  width: 330px;
+  height: 330px;
+}
+
+@media screen and (max-width: 768px) {
+  nav ul {
+    display: inline-block;
+  }
+  nav {
+    width: auto;
+    height: auto;
+  }
+}
