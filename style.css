@@ -12,33 +12,33 @@
 footer {
   background-color: rgba(94, 89, 89, 0.432);
   font-family: "Inconsolata", monospace;
-  font-family: "Lato", sans-serif;
+
   text-align: center;
-  background-image: url(./imagenes/imagenfondoopaca.jpg);
+  background-image: url(./imagenes/imagenfondoopaca.jpgg);
   background-size: cover;
   bottom: 0;
 }
 #contactanos {
   background-color: rgba(94, 89, 89, 0.432);
-  font-family: "Inconsolata", monospace;
-  font-family: "Lato", sans-serif;
-  text-align: center;
-  position: relative;
+  background-image: url(./imagenes/imagenfondoopaca.jpg);
+  font-family: "Inconsolata", monospace, bold;
   margin-top: 95px;
 }
 
 #nosotros {
   background-color: rgb(255, 255, 255);
+  background-image: url(./imagenes/imagenfondoopaca.jpg);
   font-family: "Inconsolata", monospace;
-  font-family: "Lato", sans-serif;
+
   text-align: center;
   height: 100vh;
   margin-top: 95px;
 }
 #franquicias {
   background-color: rgb(255, 255, 255);
+  background-image: url(./imagenes/imagenfondoopaca.jpg);
   font-family: "Inconsolata", monospace;
-  font-family: "Lato", sans-serif;
+
   text-align: center;
   height: 100vh;
   margin-top: 95px;
@@ -47,7 +47,7 @@ footer {
   background-image: url(./imagenes/imagenfondoopaca.jpg);
   background-size: contain;
   font-family: "Inconsolata", monospace;
-  font-family: "Lato", sans-serif;
+
   text-align: center;
   height: 100vh;
   margin-top: 95px;
@@ -64,6 +64,9 @@ footer {
   width: 330px;
   height: 330px;
 }
+.mb-4 {
+  font-family: "Inconsolata", monospace;
+}
 
 @media screen and (max-width: 768px) {
   nav ul {
@@ -73,4 +76,17 @@ footer {
     width: auto;
     height: auto;
   }
+}
+.header {
+  color: #000000;
+  font-size: 27px;
+  font-family: "Inconsolata", monospace;
+
+  text-align: center;
+  padding: 10px;
+}
+
+.bigicon {
+  font-size: 35px;
+  color: #36a0ff;
 }
