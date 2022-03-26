@@ -1,3 +1,5 @@
+$imagenfondo: url(/imagenes/imagenfondoopaca.jpg);
+
 * {
   margin: 0;
   padding: 0;
@@ -5,7 +7,7 @@
 }
 
 .imagenfondo {
-  background-image: url(./imagenes/imagenfondoopaca.jpg);
+  background-image: $imagenfondo;
   background-size: contain;
 }
 
@@ -14,20 +16,19 @@ footer {
   font-family: "Inconsolata", monospace;
 
   text-align: center;
-  background-image: url(./imagenes/imagenfondoopaca.jpgg);
   background-size: cover;
   bottom: 0;
 }
 #contactanos {
   background-color: rgba(94, 89, 89, 0.432);
-  background-image: url(./imagenes/imagenfondoopaca.jpg);
+  background-image: $imagenfondo;
   font-family: "Inconsolata", monospace, bold;
   margin-top: 95px;
 }
 
 #nosotros {
   background-color: rgb(255, 255, 255);
-  background-image: url(./imagenes/imagenfondoopaca.jpg);
+  background-image: $imagenfondo;
   font-family: "Inconsolata", monospace;
 
   text-align: center;
@@ -36,7 +37,7 @@ footer {
 }
 #franquicias {
   background-color: rgb(255, 255, 255);
-  background-image: url(./imagenes/imagenfondoopaca.jpg);
+  background-image: $imagenfondo;
   font-family: "Inconsolata", monospace;
 
   text-align: center;
@@ -44,15 +45,24 @@ footer {
   margin-top: 95px;
 }
 #tienda {
-  background-image: url(./imagenes/imagenfondoopaca.jpg);
+  background-image: $imagenfondo;
   background-size: contain;
   font-family: "Inconsolata", monospace;
-
-  text-align: center;
-  height: 100vh;
   margin-top: 95px;
 }
-
+#features {
+  background-size: contain;
+  font-family: "Inconsolata", monospace;
+}
+#headerhome {
+  background-size: contain;
+  font-family: "Inconsolata", monospace;
+}
+#home {
+  background-image: $imagenfondo;
+  background-size: contain;
+  font-family: "Inconsolata", monospace;
+}
 .row {
   display: flex;
   padding: 5px;
@@ -77,11 +87,24 @@ footer {
     height: auto;
   }
 }
+.maparesponsivo {
+  overflow: hidden;
+  padding-bottom: 56.25%;
+  position: relative;
+  height: 0;
+}
+.maparesponsivo iframe {
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+}
 .header {
   color: #000000;
   font-size: 27px;
   font-family: "Inconsolata", monospace;
-
+  background-image: $imagenfondo;
   text-align: center;
   padding: 10px;
 }
