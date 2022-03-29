@@ -1,4 +1,8 @@
 $imagenfondo: url(/imagenes/imagenfondoopaca.jpg);
+@mixin tipografiayfondo {
+  background-image: $imagenfondo;
+  font-family: "Inconsolata", monospace, bold;
+}
 
 * {
   margin: 0;
@@ -21,15 +25,13 @@ footer {
 }
 #contactanos {
   background-color: rgba(94, 89, 89, 0.432);
-  background-image: $imagenfondo;
-  font-family: "Inconsolata", monospace, bold;
+  @include tipografiayfondo;
   margin-top: 95px;
 }
 
 #nosotros {
   background-color: rgb(255, 255, 255);
-  background-image: $imagenfondo;
-  font-family: "Inconsolata", monospace;
+  @include tipografiayfondo;
 
   text-align: center;
   height: 100vh;
@@ -37,17 +39,15 @@ footer {
 }
 #franquicias {
   background-color: rgb(255, 255, 255);
-  background-image: $imagenfondo;
-  font-family: "Inconsolata", monospace;
+  @include tipografiayfondo;
 
   text-align: center;
   height: 100vh;
   margin-top: 95px;
 }
 #tienda {
-  background-image: $imagenfondo;
   background-size: contain;
-  font-family: "Inconsolata", monospace;
+  @include tipografiayfondo;
   margin-top: 95px;
 }
 #features {
@@ -59,9 +59,8 @@ footer {
   font-family: "Inconsolata", monospace;
 }
 #home {
-  background-image: $imagenfondo;
   background-size: contain;
-  font-family: "Inconsolata", monospace;
+  @include tipografiayfondo;
 }
 .row {
   display: flex;
@@ -103,8 +102,7 @@ footer {
 .header {
   color: #000000;
   font-size: 27px;
-  font-family: "Inconsolata", monospace;
-  background-image: $imagenfondo;
+  @include tipografiayfondo;
   text-align: center;
   padding: 10px;
 }

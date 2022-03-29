@@ -24,7 +24,7 @@ footer {
 #nosotros {
   background-color: white;
   background-image: url(/imagenes/imagenfondoopaca.jpg);
-  font-family: "Inconsolata", monospace;
+  font-family: "Inconsolata", monospace, bold;
   text-align: center;
   height: 100vh;
   margin-top: 95px; }
@@ -32,15 +32,15 @@ footer {
 #franquicias {
   background-color: white;
   background-image: url(/imagenes/imagenfondoopaca.jpg);
-  font-family: "Inconsolata", monospace;
+  font-family: "Inconsolata", monospace, bold;
   text-align: center;
   height: 100vh;
   margin-top: 95px; }
 
 #tienda {
-  background-image: url(/imagenes/imagenfondoopaca.jpg);
   background-size: contain;
-  font-family: "Inconsolata", monospace;
+  background-image: url(/imagenes/imagenfondoopaca.jpg);
+  font-family: "Inconsolata", monospace, bold;
   margin-top: 95px; }
 
 #features {
@@ -52,9 +52,9 @@ footer {
   font-family: "Inconsolata", monospace; }
 
 #home {
-  background-image: url(/imagenes/imagenfondoopaca.jpg);
   background-size: contain;
-  font-family: "Inconsolata", monospace; }
+  background-image: url(/imagenes/imagenfondoopaca.jpg);
+  font-family: "Inconsolata", monospace, bold; }
 
 .row {
   display: -webkit-box;
@@ -99,8 +99,8 @@ footer {
 .header {
   color: #000000;
   font-size: 27px;
-  font-family: "Inconsolata", monospace;
   background-image: url(/imagenes/imagenfondoopaca.jpg);
+  font-family: "Inconsolata", monospace, bold;
   text-align: center;
   padding: 10px; }
 
