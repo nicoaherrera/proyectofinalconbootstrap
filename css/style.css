@@ -5,7 +5,7 @@
           box-sizing: border-box; }
 
 .imagenfondo {
-  background-image: url(/imagenes/imagenfondoopaca.jpg);
+  background-image: url(/proyectofinalconbootstrap/imagenes/imagenfondoopaca.jpg);
   background-size: contain; }
 
 footer {
@@ -17,13 +17,13 @@ footer {
 
 #contactanos {
   background-color: rgba(94, 89, 89, 0.432);
-  background-image: url(/imagenes/imagenfondoopaca.jpg);
+  background-image: url(/proyectofinalconbootstrap/imagenes/imagenfondoopaca.jpg);
   font-family: "Inconsolata", monospace, bold;
   margin-top: 95px; }
 
 #nosotros {
   background-color: white;
-  background-image: url(/imagenes/imagenfondoopaca.jpg);
+  background-image: url(/proyectofinalconbootstrap/imagenes/imagenfondoopaca.jpg);
   font-family: "Inconsolata", monospace, bold;
   text-align: center;
   height: 100vh;
@@ -31,14 +31,14 @@ footer {
 
 #franquicias {
   background-color: white;
-  background-image: url(/imagenes/imagenfondoopaca.jpg);
+  background-image: url(/proyectofinalconbootstrap/imagenes/imagenfondoopaca.jpg);
   font-family: "Inconsolata", monospace, bold;
   text-align: center;
-  margin-top: 180px; }
+  margin-top: 157px; }
 
 #tienda {
   background-size: contain;
-  background-image: url(/imagenes/imagenfondoopaca.jpg);
+  background-image: url(/proyectofinalconbootstrap/imagenes/imagenfondoopaca.jpg);
   font-family: "Inconsolata", monospace, bold;
   margin-top: 95px; }
 
@@ -52,7 +52,7 @@ footer {
 
 #home {
   background-size: contain;
-  background-image: url(/imagenes/imagenfondoopaca.jpg);
+  background-image: url(/proyectofinalconbootstrap/imagenes/imagenfondoopaca.jpg);
   font-family: "Inconsolata", monospace, bold; }
 
 .row {
@@ -84,7 +84,7 @@ footer {
 
 .maparesponsivo {
   overflow: hidden;
-  padding-bottom: 56.25%;
+  padding-bottom: 55%;
   position: relative;
   height: 0; }
 
@@ -98,7 +98,7 @@ footer {
 .header {
   color: #000000;
   font-size: 27px;
-  background-image: url(/imagenes/imagenfondoopaca.jpg);
+  background-image: url(/proyectofinalconbootstrap/imagenes/imagenfondoopaca.jpg);
   font-family: "Inconsolata", monospace, bold;
   text-align: center;
   padding: 10px; }

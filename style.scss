@@ -1,4 +1,4 @@
-$imagenfondo: url(/imagenes/imagenfondoopaca.jpg);
+$imagenfondo: url(/proyectofinalconbootstrap/imagenes/imagenfondoopaca.jpg);
 @mixin tipografiayfondo {
   background-image: $imagenfondo;
   font-family: "Inconsolata", monospace, bold;
@@ -41,7 +41,7 @@ footer {
   background-color: rgb(255, 255, 255);
   @include tipografiayfondo;
   text-align: center;
-  margin-top: 180px;
+  margin-top: 157px;
 }
 #tienda {
   background-size: contain;
@@ -86,7 +86,7 @@ footer {
 }
 .maparesponsivo {
   overflow: hidden;
-  padding-bottom: 56.25%;
+  padding-bottom: 55%;
   position: relative;
   height: 0;
 }
