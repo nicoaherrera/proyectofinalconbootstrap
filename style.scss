@@ -1,4 +1,4 @@
-$imagenfondo: url(/proyectofinalconbootstrap/imagenes/imagenfondoopaca.jpg);
+$imagenfondo: url(/imagenes/imagenfondoopaca.jpg);
 @mixin tipografiayfondo {
   background-image: $imagenfondo;
   font-family: "Inconsolata", monospace, bold;
@@ -26,7 +26,8 @@ footer {
 #contactanos {
   background-color: rgba(94, 89, 89, 0.432);
   @include tipografiayfondo;
-  margin-top: 95px;
+  margin-top: 110px;
+  height: 100vh;
 }
 
 #nosotros {
@@ -41,8 +42,9 @@ footer {
   background-size: contain;
   @include tipografiayfondo;
   text-align: center;
-  margin-top: 200px;
-  margin-bottom: 200px;
+  margin-top: 99px;
+  margin-bottom: 00px;
+  height: 100vh;
 }
 #tienda {
   background-size: contain;
